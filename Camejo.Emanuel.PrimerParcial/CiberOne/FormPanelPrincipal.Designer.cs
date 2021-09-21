@@ -114,7 +114,17 @@ namespace CiberOne
             this.button35 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inicioCesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerraCesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.estadisticasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reparacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.acercaDeCiberOneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button36 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -902,9 +912,9 @@ namespace CiberOne
             // 
             this.button34.Location = new System.Drawing.Point(833, 209);
             this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(109, 23);
+            this.button34.Size = new System.Drawing.Size(109, 24);
             this.button34.TabIndex = 15;
-            this.button34.Text = "Cobrar";
+            this.button34.Text = "Cerrar PC/Cabina";
             this.button34.UseVisualStyleBackColor = true;
             // 
             // listView1
@@ -956,24 +966,103 @@ namespace CiberOne
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1});
+            this.inicioToolStripMenuItem,
+            this.herramientasToolStripMenuItem,
+            this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(963, 24);
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // toolStripMenuItem1
+            // inicioToolStripMenuItem
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(125, 20);
-            this.toolStripMenuItem1.Text = "toolStripMenuItem1";
+            this.inicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inicioCesionToolStripMenuItem,
+            this.cerraCesionToolStripMenuItem});
+            this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.inicioToolStripMenuItem.Text = "Inicio";
+            // 
+            // inicioCesionToolStripMenuItem
+            // 
+            this.inicioCesionToolStripMenuItem.Name = "inicioCesionToolStripMenuItem";
+            this.inicioCesionToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.inicioCesionToolStripMenuItem.Text = "Inicio Cesion";
+            // 
+            // cerraCesionToolStripMenuItem
+            // 
+            this.cerraCesionToolStripMenuItem.Name = "cerraCesionToolStripMenuItem";
+            this.cerraCesionToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.cerraCesionToolStripMenuItem.Text = "Cerra Cesion";
+            // 
+            // herramientasToolStripMenuItem
+            // 
+            this.herramientasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.estadisticasToolStripMenuItem,
+            this.reparacionesToolStripMenuItem});
+            this.herramientasToolStripMenuItem.Name = "herramientasToolStripMenuItem";
+            this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
+            this.herramientasToolStripMenuItem.Text = "Herramientas";
+            // 
+            // estadisticasToolStripMenuItem
+            // 
+            this.estadisticasToolStripMenuItem.Name = "estadisticasToolStripMenuItem";
+            this.estadisticasToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.estadisticasToolStripMenuItem.Text = "Estadisticas";
+            // 
+            // reparacionesToolStripMenuItem
+            // 
+            this.reparacionesToolStripMenuItem.Name = "reparacionesToolStripMenuItem";
+            this.reparacionesToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.reparacionesToolStripMenuItem.Text = "Reparaciones";
+            // 
+            // ayudaToolStripMenuItem
+            // 
+            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ayudaToolStripMenuItem1,
+            this.acercaDeCiberOneToolStripMenuItem});
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            // 
+            // ayudaToolStripMenuItem1
+            // 
+            this.ayudaToolStripMenuItem1.Name = "ayudaToolStripMenuItem1";
+            this.ayudaToolStripMenuItem1.Size = new System.Drawing.Size(179, 22);
+            this.ayudaToolStripMenuItem1.Text = "Ayuda";
+            // 
+            // acercaDeCiberOneToolStripMenuItem
+            // 
+            this.acercaDeCiberOneToolStripMenuItem.Name = "acercaDeCiberOneToolStripMenuItem";
+            this.acercaDeCiberOneToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.acercaDeCiberOneToolStripMenuItem.Text = "Acerca de CiberOne";
+            // 
+            // button36
+            // 
+            this.button36.Location = new System.Drawing.Point(833, 239);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(109, 23);
+            this.button36.TabIndex = 22;
+            this.button36.Text = "Cobrar";
+            this.button36.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(837, 674);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(114, 15);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "Estado del Operador";
             // 
             // FormPanelPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(963, 698);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.button36);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button35);
             this.Controls.Add(this.listView2);
@@ -999,9 +1088,8 @@ namespace CiberOne
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormPanelPrincipal";
-            this.Text = "Form1";
+            this.Text = "CiberOne";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -1140,7 +1228,17 @@ namespace CiberOne
         private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inicioCesionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cerraCesionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem estadisticasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem acercaDeCiberOneToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reparacionesToolStripMenuItem;
+        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Label label3;
     }
 }
 
