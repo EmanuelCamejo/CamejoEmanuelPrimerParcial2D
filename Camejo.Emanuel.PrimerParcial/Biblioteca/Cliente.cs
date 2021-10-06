@@ -37,8 +37,8 @@ namespace Biblioteca
         public Cliente(string nombre, int dni, int edad, Pc pc) : base(nombre, dni)
         {
             this.edad = edad;
-            this.estado = "recepcionado";
-            this.horaInicio = DateTime.Now;
+            estado = "recepcionado";
+            horaInicio = DateTime.Now;
         }
 
         /// <summary>
@@ -52,10 +52,9 @@ namespace Biblioteca
         {
             this.tipoDeLlamada = tipoDeLlamada;
             this.edad = edad;
-            this.estado = "recepcionado";
-            this.horaInicio = DateTime.Now;
+            estado = "recepcionado";
+            horaInicio = DateTime.Now;
         }
-
         #endregion
 
 

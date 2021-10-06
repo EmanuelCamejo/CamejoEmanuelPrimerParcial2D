@@ -13,6 +13,23 @@ namespace Biblioteca
         List<Cabina> cabinas;
 
 
+        private Ciber()
+        {
+            clientes = new List<Cliente>();
+            computadoras = new List<Pc>();
+            cabinas = new List<Cabina>();
+        }
+
+
+
+
+
+
+        public static Ciber operator +(Cliente unCliente, Pc unaPc)
+        {
+            
+        }
+
 
 
         
