@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca
 {
-    class Cronometro
+    public class Negocio
     {
         private string tipoServicio;
         private DateTime inicio;

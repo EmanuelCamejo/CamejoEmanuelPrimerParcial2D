@@ -6,12 +6,36 @@ using System.Threading.Tasks;
 
 namespace Biblioteca
 {
-    class Llamada:Cabina
+    public sealed class Llamada : Cabina
     {
-        private double valor;
+        private double valorExcedente;
         private int prefijo;
         private int numero;
-        private string tipoLlamada;
+        public const double costoLocal = 1;
+        public const double costoLargaDistancia = 2.5;
+        public const double costoInternacional = 5;
+
+        
+
+        public decimal CalcularPercioFinal(Cliente cliente, EtipoLlamada tipoLlamada)
+        {
+            decimal resultado = 0;
+
+            return resultado;
+        }
+
+        public decimal CalcularCostoLlamada(Cabina unaCabina,)
+        {
+            
+        }
+
+
+
+
+
+
+
+
 
     }
 }

@@ -1,0 +1,5 @@
+D:\Facultad\2do cuatrimestre 2021\Program II - Lab II\CamejoEmanuelPrimerParcial2D\Camejo.Emanuel.PrimerParcial\Biblioteca\obj\Debug\net5.0\Biblioteca.csproj.AssemblyReference.cache
+D:\Facultad\2do cuatrimestre 2021\Program II - Lab II\CamejoEmanuelPrimerParcial2D\Camejo.Emanuel.PrimerParcial\Biblioteca\obj\Debug\net5.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultad\2do cuatrimestre 2021\Program II - Lab II\CamejoEmanuelPrimerParcial2D\Camejo.Emanuel.PrimerParcial\Biblioteca\obj\Debug\net5.0\Biblioteca.AssemblyInfoInputs.cache
+D:\Facultad\2do cuatrimestre 2021\Program II - Lab II\CamejoEmanuelPrimerParcial2D\Camejo.Emanuel.PrimerParcial\Biblioteca\obj\Debug\net5.0\Biblioteca.AssemblyInfo.cs
+D:\Facultad\2do cuatrimestre 2021\Program II - Lab II\CamejoEmanuelPrimerParcial2D\Camejo.Emanuel.PrimerParcial\Biblioteca\obj\Debug\net5.0\Biblioteca.csproj.CoreCompileInputs.cache

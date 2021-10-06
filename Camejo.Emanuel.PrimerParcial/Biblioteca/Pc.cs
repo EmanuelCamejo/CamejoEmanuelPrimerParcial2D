@@ -6,15 +6,34 @@ using System.Threading.Tasks;
 
 namespace Biblioteca
 {
-    class Pc:Cronometro
+    public class Pc:Negocio
     {
-        private string tipoServicio;
+        public enum EHard
+        {
+            Microfono,Camara,Auricular
+        }
+        public enum ESoft 
+        {
+            Office2000,VisualBasic,ICQ
+        }
+
+        public enum EJuegos 
+        {
+            CounterStrick,AgeOfEmpires,Quake3Arena
+        }
+
+        public enum ESo
+        {
+            Windows2000, MacOSX
+        }
+
         private string idPc;
         private string estadoPc;
-        private List<string> hard;
-        private List<string> soft;
-        private List<string> juego;
-        private List<string> periferico;        
+        private EHard hard;
+        private ESoft soft;
+        private EJuegos juego;
+
+        
         
     }
 }

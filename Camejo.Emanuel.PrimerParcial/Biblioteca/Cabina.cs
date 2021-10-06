@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca
 {
-    class Cabina:Cronometro
+    public class Cabina:Negocio
     {
         private string tipo;
         private string marca;
